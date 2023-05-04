@@ -2,7 +2,6 @@
 using Newtonsoft.Json;
 using System.Net;
 using System.Text;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace WebApplication1.Controllers
 {
@@ -11,11 +10,30 @@ namespace WebApplication1.Controllers
     public class JiraController : Controller
     {
         [HttpPost]
-        public async Task<IActionResult> CreateJiraIssue()
+        public async Task<IActionResult> CreateJiraIssue([FromBody] string input)
         {
+            string title = "";
+
+            int titleIndex = input.IndexOf("TITLE:");
+            if (titleIndex != -1)
+            {
+                int colonIndex = input.IndexOf(':', titleIndex);
+                if (colonIndex != -1)
+                {
+                    int endIndex = input.IndexOf('D', colonIndex);
+                    if (endIndex != -1)
+                    {
+                        title = input.Substring(colonIndex + 1, endIndex - colonIndex - 1).Trim();
+                    }
+                    else
+                    {
+                        title = input.Substring(colonIndex + 1).Trim();
+                    }
+                }
+            }
+         
+
             string apiUrl = "https://aswecomp680.atlassian.net/rest/api/2/issue/";
-            string JIRA_AUTH_TOKEN = "ATATT3xFfGF0vv7_KSrnnufIahHny77O7zre-N4zYwKmOmE-IhhNXdkS_KSfosfnrLs7erUcHkF4zwSLExx6JAjt4DgeQZ56WYF7P1DhDh5h0beSs60dBWgm78ltwzuHuoCTvKXQnmxZpQAo7QS8KHVU2G_M98RTcxZBEuM6BSzm7Ef3PHIROsE=9BF1C64C";
-            
             var issueData = new
             {
                 fields = new
@@ -24,8 +42,8 @@ namespace WebApplication1.Controllers
                     {
                         key = "JIR"
                     },
-                    summary = "Test JIRA",
-                    description = "This is an example JIRA issue created using REST API",
+                    summary = title,
+                    description = input,
                     issuetype = new
                     {
                         name = "Task"
@@ -65,8 +83,9 @@ namespace WebApplication1.Controllers
 
         private string GetJiraAuthToken()
         {
-            string username = "nikhila.bikki.205@my.csun.edu";
-            string password = "ATATT3xFfGF0vv7_KSrnnufIahHny77O7zre-N4zYwKmOmE-IhhNXdkS_KSfosfnrLs7erUcHkF4zwSLExx6JAjt4DgeQZ56WYF7P1DhDh5h0beSs60dBWgm78ltwzuHuoCTvKXQnmxZpQAo7QS8KHVU2G_M98RTcxZBEuM6BSzm7Ef3PHIROsE=9BF1C64C";
+            // provide your username and password token of Atlassian account
+            string username = "YOUR_ID";
+            string password = "YOUR_TOKEN";
             string authString = $"{username}:{password}";
             byte[] authBytes = Encoding.UTF8.GetBytes(authString);
             string base64AuthString = Convert.ToBase64String(authBytes);

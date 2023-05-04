@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OpenAI_API;
 using OpenAI_API.Completions;
+using Newtonsoft.Json;
+using System.Threading.Tasks;
 
 namespace WebApplication1.Controllers
 {
@@ -8,10 +10,10 @@ namespace WebApplication1.Controllers
     [ApiController]
     public class openAIController : Controller
     {
-        [HttpGet]
+        [HttpGet("{input}")]
         public async Task<IActionResult> GetData(string input)
         {
-            string apiKey = "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";
+            string apiKey = "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";
             string response = "";
             OpenAIAPI openai = new OpenAIAPI(apiKey);
             CompletionRequest completion = new CompletionRequest();
@@ -29,8 +31,13 @@ namespace WebApplication1.Controllers
                 {
                     response = item.Text;
                 }
-
-                return Ok(response);
+              
+               var formattedResponse = new
+               {
+                   status = "success",
+                   description = response
+               };
+               return Ok(formattedResponse);
             }
             else
             {
@@ -40,8 +47,8 @@ namespace WebApplication1.Controllers
 
         private string generate(string input)
         {
-            string prompt = "Create a jira ticket on " + input + "\n It should contain a title \n" +
-                            "a Description section, explaining what needs to be created, why, benefits, use cases.\n" +
+            string prompt = "Create a jira ticket on " + input + "\n It should contain a title and make sure it is given as just TITLE and not ticket title etc \n" +
+                            "a Description section with title as DESCRIPTION bullet points, explaining what needs to be created, why, benefits, use cases.\n" +
                             "A requirements section, containing the components required and their type and features .\n" +
                             "an Acceptance Criteria section, summarizing what needs to be achieved\n" +
                             "a test scenario/case section.";

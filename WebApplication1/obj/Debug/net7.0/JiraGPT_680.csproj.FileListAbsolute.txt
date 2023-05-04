@@ -34,3 +34,39 @@ E:\680\WebApplication1\WebApplication1\obj\Debug\net7.0\refint\JiraGPT_680.dll
 E:\680\WebApplication1\WebApplication1\obj\Debug\net7.0\JiraGPT_680.pdb
 E:\680\WebApplication1\WebApplication1\obj\Debug\net7.0\JiraGPT_680.genruntimeconfig.cache
 E:\680\WebApplication1\WebApplication1\obj\Debug\net7.0\ref\JiraGPT_680.dll
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\bin\Debug\net7.0\appsettings.json
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\bin\Debug\net7.0\JiraGPT_680.exe
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\bin\Debug\net7.0\JiraGPT_680.deps.json
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\bin\Debug\net7.0\JiraGPT_680.runtimeconfig.json
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\bin\Debug\net7.0\JiraGPT_680.dll
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\bin\Debug\net7.0\JiraGPT_680.pdb
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\bin\Debug\net7.0\OpenAI_API.dll
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\JiraGPT_680.csproj.AssemblyReference.cache
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\JiraGPT_680.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\JiraGPT_680.AssemblyInfoInputs.cache
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\JiraGPT_680.AssemblyInfo.cs
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\JiraGPT_680.csproj.CoreCompileInputs.cache
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\JiraGPT_680.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\JiraGPT_680.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\staticwebassets\msbuild.JiraGPT_680.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\staticwebassets\msbuild.build.JiraGPT_680.props
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.JiraGPT_680.props
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.JiraGPT_680.props
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\scopedcss\bundle\JiraGPT_680.styles.css
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\JiraGPT_680.csproj.CopyComplete
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\JiraGPT_680.dll
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\refint\JiraGPT_680.dll
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\JiraGPT_680.pdb
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\JiraGPT_680.genruntimeconfig.cache
+C:\Users\Varunitha Munipelli\OneDrive\Desktop\JIRA\JiraGPT\WebApplication1\obj\Debug\net7.0\ref\JiraGPT_680.dll

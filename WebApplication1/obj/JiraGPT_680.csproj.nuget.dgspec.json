@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\680\\WebApplication1\\WebApplication1\\JiraGPT_680.csproj": {}
+    "E:\\680\\Final\\JiraGPT\\WebApplication1\\JiraGPT_680.csproj": {}
   },
   "projects": {
-    "E:\\680\\WebApplication1\\WebApplication1\\JiraGPT_680.csproj": {
+    "E:\\680\\Final\\JiraGPT\\WebApplication1\\JiraGPT_680.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\680\\WebApplication1\\WebApplication1\\JiraGPT_680.csproj",
+        "projectUniqueName": "E:\\680\\Final\\JiraGPT\\WebApplication1\\JiraGPT_680.csproj",
         "projectName": "JiraGPT_680",
-        "projectPath": "E:\\680\\WebApplication1\\WebApplication1\\JiraGPT_680.csproj",
+        "projectPath": "E:\\680\\Final\\JiraGPT\\WebApplication1\\JiraGPT_680.csproj",
         "packagesPath": "C:\\Users\\bikki\\.nuget\\packages\\",
-        "outputPath": "E:\\680\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "E:\\680\\Final\\JiraGPT\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bikki\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
